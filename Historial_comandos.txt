@@ -1,0 +1,513 @@
+ls
+pwd
+man
+man man
+vagrant halt
+wwhoami
+whoami
+clear
+pwd
+ls
+mkdir holi
+ls
+rm holi
+rm -r holi
+ls
+clear
+hostnamectl --help
+hostnamectl status
+hostnamectl hostname
+localectl --help
+passwwd --help
+man passwd
+sudo mandb
+passwwd --help
+man -k network
+apropos networking
+whoami
+pwd
+ls
+cd
+$HOME
+ls
+pwd
+apt
+sudo apt update
+pwd
+sudo apt install tree
+pwd
+passwd --help
+-h
+ls
+clear
+ls -l
+ls
+pwd
+ll
+clear
+tree
+clear
+ssh-keygen
+pwd
+cat $HOME/.ssh/*.pub
+pwd
+cd
+ped
+pwd
+cd /home
+pwd
+mkdir repogit
+cd
+pwd
+mkdir repogit
+ll
+tree
+pwd
+cd repogit
+pwd
+git clone git@github.com:Maxi-Guzman/TP_AySO.git
+ll
+cd TP_AySO/
+ll
+cat README.md 
+PWD
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ll
+git status
+git add .
+git status
+git config --global user.email "max22guz@gmail.com"
+git config --global user.name "Maxi-Guzman"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+cat /proc/cpuinfo
+cat /proc/cpuinfo | grep "model name"
+head -1 /proc/cpuinfo | grep "model name"
+head /proc/cpuinfo | grep "model name"
+head /proc/cpuinfo | grep "model name" >> datos_usuario.txt 
+cat datos_usuario.txt 
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+man grep
+grep -v nologin /etc/passwd > lista_ordenada.txt
+ll
+cat lista_ordenada.txt 
+man sort
+sort lista_ordenada.txt -t ":" -k7
+sort lista_ordenada.txt -t ":" -k7 > lista_ordenada.txt 
+cat lista_ordenada.txt 
+sort lista_ordenada.txt -k7 > lista_ordenada.txt 
+cat lista_ordenada.txt 
+ll
+grep -v nologin /etc/passwd > lista_ordenada.txt 
+cat lista_ordenada.txt 
+grep -v nologin /etc/passwd > lista_ordenada.txt | sort lista_ordenada.txt -k7 > lista_ordenada.txt 
+cat lista_ordenada.txt 
+ll
+grep -v nologin /etc/passwd > lista_ordenada.txt 
+cat lista_ordenada.txt 
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+man apropos
+apropos dump traffic
+echo "tcpdump" > comando_dump_net
+man tcpdump
+ll
+echo "Utilizar: man tcpdump" >> comando_dump_net 
+ll
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red "
+cat <<EOF >> README.md 
+Alumno: Maximiliano Guzman
+Division: 312
+Turno: Noche
+EOF
+
+git add .
+git commit -m "<Docs> : <Agregando informacion del alumno>"
+ll
+history -a
+cp $HOME/.bash_history ./Historial_comandos_<Maximiliano-Guzman>.txt
+cp $HOME/.bash_history ./Historial_comandos_Maximiliano-Guzman.txt
+ll
+git add .
+git commit -m "Agredando el historial de comandos"
+git push
+cd ..
+pwd
+clear
+pwd
+whoami
+tree
+mkdir -p abuelo/papa/hijo
+ll
+cd abuelo/
+tree
+cd ..
+rm -r abuelo/
+ll
+mkdir -p simetrico/abuelo/papa/{hijo1,hijo2}
+cd simetrico/
+tree
+echo {1,2,3}
+echo {1..3}
+echo {1..20}
+echo {a..z}
+echo {1..10..2}
+echo {1..10..3}
+cd ..
+pwd
+ll
+mkdir ejemplo
+cd ejemplo/
+cd ..
+rm -r ejemplo/
+pwd
+ll
+mkdir -p /home/vagrant/ejemplo/asimetrico/{{mama,papa}/hijos_{1..9},tio/sobrino}}
+cd ejemplo/
+tree
+cd ..
+rm -r ejemplo/
+pwd
+mkdir -p /home/vagrant/ejemplo/asimetrico/{{mama,papa}/hijos_{1..9},tio/sobrino}
+cd ejemplo/
+tree
+cd ..
+rm -r simetrico/
+ll
+rm -r ejemplo/
+ll
+vim nuevo.sh
+bash nuevo.sh 
+vim nuevo.sh
+bash nuevo.sh 
+vim nuevo.sh
+bash nuevo.sh 
+ll
+cd ejemplo
+cd ejemplomama/
+tree
+cd ..
+pwd
+rm -r ejemplomama/
+rm -r ejemplopapa/
+rm -r ejemplotio/
+rm -r nuevito.txt 
+rm -r resultado.txt 
+ll
+vim nuevo.sh 
+bash nuevo.sh 
+ll
+cd ejemplo/
+tree
+cat nuevito.txt 
+cd papa/
+cat resultado.txt 
+cd ..
+pwd
+ll
+rm -r nuevo.sh 
+ll
+cd ejemplo/
+tree
+cd ..
+rm -r ejemplo/
+ll
+cat << EOF > 1er_script.sh
+#!/bin/bash
+echo "hola mundo"
+EOF
+
+ll
+./1erscript.sh
+./1er_script.sh
+sudo chmod 755 1er_script.sh 
+ll
+./1er_script.sh 
+vim 1er_if.sh
+ll
+sudo chmod 755 1er_if.sh 
+ll
+./1er_if.sh 
+vim 1er_if.sh
+logout
+pwd
+whoami
+sudo journalctl -k | grep -l attached
+ll
+lsblk
+fdisk -l
+sudo fdisk -l
+sudo fdisk /dev/sdd
+pwd
+sudo fdisk /dev/sdd
+clear
+vagrant halt
+logout
+clear
+pwd
+whoami
+mkdir parcial1
+ll
+cd parcial1/
+pwd
+git clone git@github.com:Maxi-Guzman/AySO-Parcial1-Maximiliano-Guzman.git
+pwd
+whoami
+vim puntoa.sh
+ll
+bash puntoa.sh 
+tree
+vim puntoa.sh
+bash puntoa.sh 
+tree
+rm -r puntoa.sh 
+ll
+tree
+rm -r \{Examenes-UTN\}/
+ll
+rm -r \{\{Examenes-UTN\}/
+ll
+cd ..
+pwd
+whoami
+cd parcial1/
+tree
+cd ..
+touch $HOME/parcial1/puntoa.sh
+ll
+cd parcial1/
+ll
+cd ..
+touch $HOME/parcial1/puntob.sh
+touch $HOME/parcial1/puntoc.sh
+touch $HOME/parcial1/puntod.sh
+touch $HOME/parcial1/puntoe.sh
+touch $HOME/parcial1/puntof.sh
+cd parcial1/
+tree
+cd ..
+pwd
+vim $HOME/parcial1/puntoa.sh
+bash $HOME/parcial1/puntoa.sh
+cd parcial1/
+bash puntoa.sh
+pwd
+ll
+cd puntoa.sh
+bash puntoa.sh
+cd ..
+pwd
+ll
+cd parcial1/
+ll
+vim puntoa.sh
+bash puntoa.sh
+ll
+tree
+rm - r home/
+cd ..
+rm - r home/
+ll
+cd parcial1/
+ll
+mr -r home/
+rmdir home/
+ll
+cd home/
+ll
+tree
+cd ..
+vim puntoa.sh
+ll
+tree
+sudo mr -r home/
+rm -r home/
+ll
+cd puntoa.sh
+vim puntoa.sh
+tree
+bash puntoa.sh
+vim puntoa.sh
+bash puntoa.sh
+tree
+lsblk
+sudo fdisk -l
+chmod 755 puntoa.sh
+ll
+./puntoa.sh 
+ll
+cd ..
+cd parcial1/
+sudo fdisk -l
+
+ll
+lsblk
+vim puntob.sh
+lsblk
+chmod 755 puntob.sh
+bash puntob.sh
+vim puntob.sh
+bash puntob.sh
+lsblk
+sudo fdisk -l
+lsblk
+vim puntob.sh
+chmod 755 puntob.sh
+bash puntob.sh
+lsblk
+lsblk -l
+lsblk
+vim puntob.sh
+bash puntob.sh
+sudo fdisk -l
+fdisk
+vim puntob.sh
+bash puntob.sh
+lsblk
+sudo fdisk /dev/sdc
+lsblk
+vim puntob.sh
+chmod 755 puntob.sh
+bash puntob.sh
+lsblk
+sudo fdisk /dev/sdc
+lsblk
+vim puntob.sh
+bash puntob.sh
+lsblk
+bash puntob.sh
+lsblk
+vim puntob.sh
+chmod 755 puntob.sh
+bash puntob.sh
+lsblk
+vim puntob.sh
+fdisk -l
+sudo fdisk -l
+lsblk
+vim puntob.sh
+bash puntob.sh
+lsblk
+lsblk -f
+chmod 755 puntob.sh
+lsblk
+bash puntob.sh
+vim puntob.sh
+bash puntob.sh
+lsblk
+tree
+vim puntod.sh
+chmod 755 puntod.sh
+bash puntob.sh
+bash puntod.sh
+ll
+cd ..
+ll
+cd parcial1/
+ll
+cd AySO-Parcial1-Maximiliano-Guzman/
+ll
+cd ..
+ll
+cd repogit/
+ll
+cd ..
+cd parcial1/
+ll
+cd AySO-Parcial1-Maximiliano-Guzman/
+ll
+cat README.md 
+CD
+cd ..
+ll
+git add .
+cd
+git add .
+cd parcial1/
+cd AySO-Parcial1-Maximiliano-Guzman/
+git add .
+cat <<EOF >> README.md 
+Nombre: Maximiliano
+Apellido: Guzman
+Legajo: 117763
+Division: 312
+EOF
+
+cat README.md 
+git add .
+cd ..
+history -a
+cd ..
+ll
+cd parcial1/
+ll
+cd AySO-Parcial1-Maximiliano-Guzman/
+cp $HOME/.bash_history
+cd ..
+cp $HOME/.bash_history
+cp $HOME/vagrant/.bash_history
+cd AySO-Parcial1-Maximiliano-Guzman/
+cp $HOME/vagrant/.bash_history
+pwd
+cd ..
+history -a
+pwd
+cd AySO-Parcial1-Maximiliano-Guzman/
+history -a
+ll
+ssh-keygen
+ll
+cd parcial1/
+ll
+mv * AySO-Parcial1-Maximiliano-Guzman/
+cd AySO-Parcial1-Maximiliano-Guzman/
+ll
+cd ..
+ll
+cd AySO-Parcial1-Maximiliano-Guzman/
+git add .
+git commit -m "Entregando el parcial"
+git push
+ll
+history -a
+cp $HOME/.bash_history
+cp --help
+cp ~/.bash_history ~/AySO-Parcial1-Maximiliano-Guzman/Historial_comandos_Maximiliano.txt
+cd ..
+history -a
+cp ~/.bash_history ~/AySO-Parcial1-Maximiliano-Guzman/Historial_comandos_Maximiliano.txt
+history -a
+cp .bash_history AySO-Parcial1-Maximiliano-Guzman/Historial_comandos_Maximiliano.txt
+cp /.bash_history/AySO-Parcial1-Maximiliano-Guzman/Historial_comandos_Maximiliano.txt
+cd AySO-Parcial1-Maximiliano-Guzman/
+git add Historial_comandos.txt
+history -a
+touch Historial_comandos.txt
+cat /.bash_history > Historial_comandos.txt 
+cd ..
+history -a
+cat ~/.bash_history > Historial_comandos.txt 
+ll
+cat Historial_comandos.txt 
+cd AySO-Parcial1-Maximiliano-Guzman/
+mv ~/Historial_comandos.txt
+ll
+cd ..
+ll
+rm -r Historial_comandos.txt 
+ll
+cd AySO-Parcial1-Maximiliano-Guzman/
+ll
+cat Historial_comandos.txt 
+history -a
